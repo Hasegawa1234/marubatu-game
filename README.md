@@ -1,0 +1,2 @@
+# marubatu-game
+まるばつゲーム
