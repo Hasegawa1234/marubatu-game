@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #a6dced;  /*背景*/
+    height: 110px;     /*高さ*/
+    display: flex;  /*flecbox*/
+    justify-content: center;  /*左右中央*/
+    align-items: center;  /*上下中央*/
+}
+
+.playArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+    height: calc(100vh - 150px); /*高さ*/
+}
+
+.tool {
+    display: flex;
+    flex-direction: column;   /* 縦並び */
+    justify-content: center;  /* 上下中央 */
+    align-items: center;      /* 左右中央 */
+    margin: 20px;
+}
+
+#tool_nowPlayer {
+    background-color: #f2f8fb;  /*背景色*/
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+#tool_resultText {
+    background-color: #eceff3;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #e761a4;
+    border-radius: 10px;
+}
+
+.tool_replyButton {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 16px;
+    width: 70%;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 2px solid #53666c;
+    color: #000;
+    background-color: #d7ebf2;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tool_replyButton:hover {
+    background-color: #8a9a7a;
+    color: #53666c;
+}
+
+.gameBoard {
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+.playArea_gameBoard-line {
+    display: flex;
+}
+
+.square {
+    text-align: center;
+    color: #fff;
+    background-color: #3e5c87;
+    border: 2px solid #fff;
+    caret-color: transparent;
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #41857a;
+    color: #fff;
+}
